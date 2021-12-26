@@ -10,7 +10,7 @@ public class ArraySeleccion {
 		public ArraySeleccion(int max)  // constructor
 		{
 		a = new long[max];   // creacion del array
-		nElementos = 0;    // array sin elementos
+		nElementos = 0;    // variable inicial
 		}
 		
 		public void inserccion(long valor) // agregar  elementos dento array
