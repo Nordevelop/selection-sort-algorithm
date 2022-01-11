@@ -3,9 +3,12 @@ package misClases;
 import java.util.*;
 
 public class ArraySeleccion {
+		/*Author Nordevelop
+		*
+		*/
 	
-		private long[] a;    // crea el Array  a[]
-		private int nElementos;  // numero de elementos
+		private long[] a;    //array y variable encapsulados con acceso restringido en la clase Main()
+		private int nElementos;  
 		
 		public ArraySeleccion(int max)  // constructor
 		{
@@ -48,4 +51,4 @@ public class ArraySeleccion {
 		a[dos] = aux;
 		}//fin metodo intercambio
 	
-		} // fin clase ArraySeleccion
+		} // fin clase ArraySeleccion.java
