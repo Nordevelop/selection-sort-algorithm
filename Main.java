@@ -9,25 +9,25 @@ public class Main {
 		int maxSize = 100;     // maximo tamaño del array 
 		ArraySeleccion arr;     //variable de objetos de la clases ArraySeleccion
 		arr = new ArraySeleccion(maxSize); // crea el  array
-		arr.inserccion(879);
-		arr.inserccion(77);       // insertar N elementos dentro del Array 
-		arr.inserccion(99);
-		arr.inserccion(44);
-		arr.inserccion(746);
-		arr.inserccion(55);
-		arr.inserccion(22);
-		arr.inserccion(88);
-		arr.inserccion(11);
-		arr.inserccion(00);
+		arr.inserccion(87);
+		arr.inserccion(73);       // insertar N elementos dentro del Array 
+		arr.inserccion(64);
+		arr.inserccion(54);
+		arr.inserccion(46);
+		arr.inserccion(39);
+		arr.inserccion(32);
+		arr.inserccion(28);
+		arr.inserccion(25);
+		arr.inserccion(13);
 		arr.inserccion(19);
-		arr.inserccion(116);
-		arr.inserccion(546);
 		arr.inserccion(16);
-		arr.inserccion(14);
-		arr.inserccion(346);
-		arr.inserccion(97);
-		arr.inserccion(66);
-		arr.inserccion(33);
+		arr.inserccion(11);
+		arr.inserccion(6);
+		arr.inserccion(5);
+		arr.inserccion(4);
+		arr.inserccion(2);
+		arr.inserccion(3);
+		arr.inserccion(1);
 		arr.inserccion(8);                 
 		System.out.println("Array Original ");
 		arr.mostrar();   // muestra en pantalla el array desordenado
