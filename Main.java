@@ -9,21 +9,11 @@ public class Main {
 		int maxSize = 100;     // maximo tamaño del array 
 		ArraySeleccion arr;     //variable de objetos de la clases ArraySeleccion
 		arr = new ArraySeleccion(maxSize); // crea el  array
-		arr.inserccion(87);
-		arr.inserccion(73);       // insertar N elementos dentro del Array 
-		arr.inserccion(64);
-		arr.inserccion(54);
-		arr.inserccion(46);
-		arr.inserccion(39);
-		arr.inserccion(32);
-		arr.inserccion(28);
-		arr.inserccion(25);
-		arr.inserccion(13);
 		arr.inserccion(19);
 		arr.inserccion(16);
 		arr.inserccion(11);
 		arr.inserccion(6);
-		arr.inserccion(5);
+		arr.inserccion(5);  // insertar N elementos dentro del Array 
 		arr.inserccion(4);
 		arr.inserccion(2);
 		arr.inserccion(3);
