@@ -10,7 +10,7 @@ public class ArraySeleccion {
 		private long[] a;    //array y variable encapsulados con acceso restringido en la clase Main()
 		private int nElementos;  
 		
-		public ArraySeleccion(int max)  // constructor
+		public ArraySeleccion(int max)  // clase constructor
 		{
 		a = new long[max];   // creacion del array
 		nElementos = 0;    // variable inicial
