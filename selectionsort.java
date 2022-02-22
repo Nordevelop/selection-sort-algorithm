@@ -34,7 +34,7 @@ public class Main{
        System.out.println(" ");
        System.out.println("Array Ordenado Con el metodo de Selección ");
        for (int j=0;j<cont;j++) {
-            System.out.print(a[j] +"");
+            System.out.print(a[j] +" ");
             System.out.print(" ");
        } //end for (j)
 
