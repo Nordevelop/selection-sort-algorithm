@@ -19,26 +19,26 @@ public class Main{
     for(int i=0;i< cont;i++) {
 	System.out.print(a[i]);
 	System.out.print(" ");
-    } //end for
+    } //end for (i)
     for(salida=0; salida<cont-1; salida++){ 
         minimo = salida; // minimo
         for(entrada=salida+1; entrada<cont; entrada++) { 
 	    if(a[entrada] < a[minimo] )   // if minimo es mayor,
                  minimo = entrada;
-	}
+	} //end for entrada
       /* Intercambiar el elemento con valor mínimo --> 
       * por la primera posición del array que todavia no está ordenado. 
       */
        temp = a[minimo]; 
        a[minimo] = a[salida]; 
        a[salida] = temp; 		 
-       } // fin for
+       } // end for salida
        System.out.println(" ");
        System.out.println("Array Ordenado Con el metodo de Selección ");
        for (int j=0;j<cont;j++) {
             System.out.print(a[j] +"");
             System.out.print(" ");
-       }
+       } //end for (j)
 
   }
 	
