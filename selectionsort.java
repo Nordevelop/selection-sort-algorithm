@@ -11,8 +11,6 @@ public class Main{
     int cont=15; 
     long aux;
     int a[]= {15,10,3,12,7,13,8,9,11,2,5,14,1,4,6}; //generacion del Array
-    int uno = 0;   
-    int dos = 0;
     int temp;
     int entrada, salida, minimo;	  
     System.out.println("Array Desordenado ");
