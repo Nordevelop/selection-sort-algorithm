@@ -4,3 +4,6 @@ $El método de ordenación por selección se basa en seleccionar la posición de
 Se encuentra el elemento menor de la lista y se intercambia el elemento menor con el elemento de subíndice [0]. A continuación, se busca el elemento menor en la sublista de subíndices [1], [2], [3] .. [n] – 1, y se intercambia
 con el elemento de subíndice [1]. Después, se busca el elemento menor en la sublista [2] .. [n] – 1 y se intercambia con la posición 2. El proceso continúa sucesivamente, durante [n]-1 pasadas. Una vez terminadas las pasadas la lista desordenada se reduce a un elemento (el (mayor de la lista) y el array completo ha quedado ordenado.
 
+Main() y ArraySeleccion
+estan desarrollado respetando el paradigma POO
+
